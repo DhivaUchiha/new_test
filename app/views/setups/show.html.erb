@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>First:</strong>
+  <%= @setup.first %>
+</p>
+
+<p>
+  <strong>Second:</strong>
+  <%= @setup.second %>
+</p>
+
+<p>
+  <strong>Dob:</strong>
+  <%= @setup.dob %>
+</p>
+
+<%= link_to 'Edit', edit_setup_path(@setup) %> |
+<%= link_to 'Back', setups_path %>
